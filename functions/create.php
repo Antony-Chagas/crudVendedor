@@ -11,7 +11,7 @@ use Source\Models\Vendedor;
 $vendas = new Vendas();
 $vendas->value = 500;
 $vendas->commission	= $vendas->value * 0.085;
-$vendas->id_saller = 1;
+$vendas->id_saller = 5;
 $vendas->save();
 
 var_dump($vendas);
@@ -20,7 +20,7 @@ var_dump($vendas);
 $vendedor = new Vendedor();
 $vendedor->name = "Samuel Chagas";
 $vendedor->email =  "samuel.chagas@gmail.com";
-$vendedor->save();
+//$vendedor->save();
 
 var_dump($vendedor);
 

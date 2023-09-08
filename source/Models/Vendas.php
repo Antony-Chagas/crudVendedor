@@ -11,8 +11,4 @@ class Vendas extends DataLayer
         parent::__construct("vendas",["value", "id_saller", "commission"], "id");
     }
 
-    public function vendedor()
-    {
-        return (new Vendedor())->find("id_saller = :uid", ":uid={$this->id} ")->fetch(true);
-    }
 }

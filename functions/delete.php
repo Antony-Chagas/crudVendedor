@@ -8,7 +8,7 @@ use Source\Models\Vendas;
 use Source\Models\Vendedor;
 
 //Deletar um venda
-$vendas = (new Vendas())->findById(10);
+$vendas = (new Vendas())->findById(2);
 if($vendas ){
     $vendas->destroy();
 }else {
@@ -16,7 +16,7 @@ if($vendas ){
 }
 
 //Deletar um vendedor
-$vendedor = (new Vendedor())->findById(4);
+$vendedor = (new Vendedor())->findById(2);
 if($vendedor){
     $vendedor->destroy();
 }else {
