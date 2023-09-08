@@ -7,8 +7,9 @@ require __DIR__ . "/../source/Models/Vendas.php";
 use Source\Models\Vendas;
 use Source\Models\Vendedor;
 
+
 //Deletar um venda
-$vendas = (new Vendas())->findById(2);
+$vendas = (new Vendas())->findById(40);
 if($vendas ){
     $vendas->destroy();
 }else {

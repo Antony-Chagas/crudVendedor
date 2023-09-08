@@ -22,7 +22,7 @@ use Source\Models\Vendas;
 use Source\Models\Vendedor;
 
     
-echo "Vendas e vendedores:";
+echo "<h1>Vendas e vendedores:</h1>";
 
 try{
     $query = Connect::getInstance()->query(
