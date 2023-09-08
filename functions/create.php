@@ -21,7 +21,7 @@ $vendedor = new Vendedor();
 $vendedor->name = "Samuel Chagas";
 $vendedor->email =  "samuel.chagas@gmail.com";
 //$vendedor->save();
-echo "<h3>Ultimo vendedor incluido:</h3>";
+echo "<h3>Último vendedor incluido:</h3>";
 var_dump($vendedor->data());
 
 //---------------------------------------
@@ -40,7 +40,7 @@ $vendas->value = $venda2;
 $vendas->commission	= $vendas->value * 0.085;
 $vendas->id_saller = $id_saller;
 $vendas->save();
-echo "<h3>Ultimo venda incluido:</h3>";
+echo "<h3>Última venda incluido:</h3>";
 var_dump($vendas->data());
 
 

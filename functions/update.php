@@ -14,7 +14,7 @@ $vendas->commission	= $vendas->value * 0.085;
 $vendas->id_saller = 1;
 //$vendas->save();
 
-echo "<h3>Ultima venda atualizada:</h3>";
+echo "<h3>Última venda atualizada:</h3>";
 var_dump($vendas->data());
 
 //Atualizar dados do vendedor
@@ -23,5 +23,5 @@ $vendedor->name = "Samuel Marcos";
 $vendedor->email =  "samuel.chagas@gmail.com";
 //$vendedor->save();
 
-echo "<h3>Ultimo vendedor atualizado:</h3>";
+echo "<h3>Último vendedor atualizado:</h3>";
 var_dump($vendedor->data());
