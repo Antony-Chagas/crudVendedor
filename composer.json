@@ -1,0 +1,24 @@
+{
+  "name": "antony-chagas/crud",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Antony Chagas",
+      "email": "antony.tiagor445@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+
+  "require": {
+    "coffeecode/datalayer": "1.*"
+  }
+}
